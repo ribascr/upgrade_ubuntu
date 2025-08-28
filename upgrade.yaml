@@ -10,4 +10,4 @@
 
     - name: Atualizar pacotes instalados
       apt:
-        upgrade: dist
+        upgrade: yes
