@@ -11,3 +11,8 @@
     - name: Atualizar pacotes instalados
       apt:
         upgrade: yes
+        
+    - name: Limpar pacotes antigos do cache (autoclean)
+      apt:
+        autoclean: yes
+
